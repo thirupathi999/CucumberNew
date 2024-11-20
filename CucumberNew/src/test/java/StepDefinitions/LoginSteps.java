@@ -1,5 +1,7 @@
 package StepDefinitions;
 
+import static org.testng.Assert.assertTrue;
+
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -47,8 +49,7 @@ public class LoginSteps {
 	  
 	
 	}
-	private void assertTrue(boolean displayed) {
-		// TODO Auto-generated method stub
-		
+	
+	
 	}
-}
+
