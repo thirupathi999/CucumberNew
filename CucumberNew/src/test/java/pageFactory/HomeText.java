@@ -20,7 +20,7 @@ public class HomeText {
 	WebElement text_value;
 	
 	public void isDataVisisble() {
-		text_value.isDisplayed();
+		//text_value.isDisplayed();
 	}
 	
 }

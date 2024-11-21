@@ -9,7 +9,7 @@ And clicks on login button
 Then user navigated to home page
 
 
-Scenario: Check login with valid creds with parameterization
+Scenario Outline: Check login with valid creds with parameterization
 Given userr is on login page
 When userr enters valid "<uname>" and "<password>"
 And clickss on login button

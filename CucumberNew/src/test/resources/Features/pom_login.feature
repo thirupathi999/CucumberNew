@@ -1,5 +1,5 @@
 Feature: Login functionality from POM
-Scenario: POM-Check login with valid creds
+Scenario Outline: POM-Check login with valid creds
 Given pom user is on login page
 When pom user enters valid "<uname>" and "<password>"
 And pom clickss on login button

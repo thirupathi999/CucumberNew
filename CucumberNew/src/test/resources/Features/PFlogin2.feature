@@ -1,6 +1,6 @@
 Feature: Page Factory Login functionality
-@smoke
-Scenario: PF Check login with valid creds
+
+Scenario Outline: PF Check login with valid creds
 Given pF user is on login page
 When pF user enters valid "<uname>" and "<password>"
 And pF clickss on login button

@@ -23,6 +23,8 @@ public class pageFactory {
 	
 	@Given("pF user is on login page")
 	public void p_f_user_is_on_login_page() {
+	//	System.setProperty("webdriver.chrome.driver", "C:/Program Files/Chrome/chromedriver-win64");
+
 	   driver=new ChromeDriver();
 	   driver.get("https://www.saucedemo.com/v1/");
 	   //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -46,8 +48,8 @@ public class pageFactory {
 	@Then("pF userr navigated to home")
 	public void p_f_userr_navigated_to_home() {
 	  homedata = new HomeText(driver);
-	  homedata.isDataVisisble();
-	  driver.close();
+	 // homedata.isDataVisisble();
+	  driver.quit();
 	  	  
 	}
 

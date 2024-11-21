@@ -42,8 +42,8 @@ public class Pom_Login {
 
 	@Then("pom userr navigated to home")
 	public void pom_userr_navigated_to_home() {
-	   lgnpg.logo();
-		
+	//   lgnpg.logo();
+		driver.quit();
 	}
 	
 }

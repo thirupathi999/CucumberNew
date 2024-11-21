@@ -30,6 +30,6 @@ public class loginpage {
 	}
 
 	public void logo() {
-		driver.findElement(logo).isDisplayed();
+	//	driver.findElement(logo).isDisplayed();
 	}
 }

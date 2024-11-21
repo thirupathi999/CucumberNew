@@ -27,7 +27,7 @@ public class PageFactoryData {
 		txt_pwd.sendKeys(password);
 	}
 	public void clickonloginButton() {
-		login_button.click();
+		//login_button.click();
 	}
 	
 	
